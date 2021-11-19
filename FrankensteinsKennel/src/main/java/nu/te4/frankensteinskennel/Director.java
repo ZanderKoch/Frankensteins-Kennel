@@ -21,7 +21,7 @@ public class Director{
         String sex;
         String species = null;
 
-        //PetBuilder builder;
+        
         Scanner scanner = new Scanner(System.in);
 
         System.out.println(
@@ -32,27 +32,28 @@ public class Director{
                     "What kind of pet would you like? (dog/cat)");
             species = scanner.nextLine();
         }
-            System.out.println("A wise choice! What will their name be?");
-            name = scanner.nextLine();
-            
-            System.out.println(
-                    "That's a good name! Would you like a male or female "
-                    + species);
-            sex = scanner.nextLine();
-
-            System.out.println("That makes sense. How many legs would"
-                    + " you like it to have?");
-            legs = scanner.nextInt();
-
-            System.out.println("A bold decision! How many tails?");
-            tails = scanner.nextInt();
-
-            System.out.println("Oooh, I like that! How many heads?");
-            heads = scanner.nextInt();
-
-            System.out.println("Well, that's a bit unorthodox. Anyway, "
-                    + "here's your " + species);
         
+        System.out.println("A wise choice! What will their name be?");
+        name = scanner.nextLine();
 
+        System.out.println(
+                "That's a good name! Would you like a male or female "
+                + species);
+        sex = scanner.nextLine();
+
+        System.out.println("That makes sense. How many legs would"
+                + " you like it to have?");
+        legs = scanner.nextInt();
+
+        System.out.println("A bold decision! How many tails?");
+        tails = scanner.nextInt();
+
+        System.out.println("Oooh, I like that! How many heads?");
+        heads = scanner.nextInt();
+
+        System.out.println("Well, that's a bit unorthodox. Anyway, "
+                + "here's your " + species);
+        
+        
     }
 }
