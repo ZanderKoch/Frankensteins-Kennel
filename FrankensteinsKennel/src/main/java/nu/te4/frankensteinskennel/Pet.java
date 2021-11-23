@@ -17,15 +17,9 @@ public abstract class Pet{
     protected String sex;
     protected String species;
     
-    public abstract Pet(PetBuilder petBuilder){
-        this.legs = petBuilder.getLegs();
-        this.heads = petBuilder.getHeads();
-        this.tails = petBuilder.getTails();
-        this.name = petBuilder.getName();
-        this.sex = petBuilder.getSex();
-        this.species = petBuilder.getSpecies();
+    
         
-    }
+    
     
     public void present(){
         this.speakUp();

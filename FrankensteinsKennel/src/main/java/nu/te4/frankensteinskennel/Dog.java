@@ -23,6 +23,6 @@ public class Dog extends Pet{
     }
 
     public void speakUp(){
-        System.out.println("Woof");
+        System.out.println("Woof!");
     }
 }

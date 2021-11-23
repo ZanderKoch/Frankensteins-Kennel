@@ -54,6 +54,15 @@ public class Director{
         System.out.println("Well, that's a bit unorthodox. Anyway, "
                 + "here's your " + species);
         
+        PetBuilder petBuilder = new PetBuilder()
+                .heads(heads)
+                .legs(legs)
+                .name(name)
+                .sex(sex)
+                .species(species)
+                .tails(tails);
+        Pet pet = petBuilder.build();
         
+        pet.present();
     }
 }
